@@ -12,7 +12,6 @@ export default class App extends Component {
             <Link to="/">Fisher Bookstore</Link>
           </Navbar.brand>
         </Navbar>
-        <Routes />
       </div>
     );
   }
