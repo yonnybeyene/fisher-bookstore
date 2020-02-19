@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Navbar } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import { NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default class App extends Component {
