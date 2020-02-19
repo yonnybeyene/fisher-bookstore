@@ -5,6 +5,8 @@ import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Routes from './Routes';
+
 
 export default class App extends Component {
   render() {
