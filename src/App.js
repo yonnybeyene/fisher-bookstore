@@ -21,10 +21,11 @@ export default class App extends Component {
             <Nav>
               <NavItem>
                 <Nav.Link href="/books">Books</Nav.Link>
-                <Nav.Link href="/authors">Authors</Nav.Link>
+                
               </NavItem>
             </Nav>
           </Navbar.Collapse>
+          <Nav.Link href="/authors">Authors</Nav.Link>
         </Navbar>
         <Routes />
       </div>
