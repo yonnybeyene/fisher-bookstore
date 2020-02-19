@@ -11,5 +11,5 @@ export function BookCard(props) {
                 <Button variant="warning">Add to Cart</Button>
             </Card.body>
         </Card>
-    )
+    );
 }
