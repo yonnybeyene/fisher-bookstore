@@ -4,12 +4,12 @@ import { BookDisplay } from "./BooksDisplay";
 import { render } from "@testing-library/react";
 
 
-export default function Books() {
+export default class Books extends Component {
 
-constructor(props); {
-    super(props);
-    this.state = {
-        books: [
+    constructor(props) {
+        super(props);
+        this.state = {
+         books: [
             {
             id: 1,
             title: "Domain Driven Design",
@@ -25,7 +25,7 @@ constructor(props); {
         ]
     };
     }
-    render(); {
+    render() {
         return (
             <div className="Books">
                 <div className="lander">
