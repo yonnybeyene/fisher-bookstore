@@ -8,8 +8,8 @@ export function AuthorDisplay(props) {
             <h3>Authors</h3>
             <CardColumns>
                 {props.authors.map(a => (
-
                     <p>{a.author}</p>
+                    
                 ))}
             </CardColumns> 
         </div>

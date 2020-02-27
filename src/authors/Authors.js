@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./Authors.css";
 import { AuthorDisplay } from "./AuthorDisplay";
 
-export default class Authors extends Component() {
-    
+export default class Authors extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -59,15 +59,14 @@ export default class Authors extends Component() {
             ]
         };
         }
-    render () {
-    return (
-        <div className="Authors">
-            <div className="lander">
-                <h1>Authors</h1>
-                <p>Author Search</p>
-                <AuthorDisplay authors={this.state.authors} />
+
+    render() {
+        return (
+            <div className="Books">
+                <div className="lander">
+                    <AuthorDisplay authors={this.state.authors} />
+                </div>
             </div>
-        </div>
     );
 }
 }
