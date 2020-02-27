@@ -1,4 +1,4 @@
-import React, { Component }from "react";
+import React, { Component } from "react";
 import "./Authors.css";
 import { AuthorDisplay } from "./AuthorDisplay";
 
@@ -7,7 +7,7 @@ export default class Authors extends Component() {
     constructor(props) {
         super(props);
         this.state = {
-         books: [
+         authors: [
             {
             id: 1,
             title: "Domain Driven Design",
