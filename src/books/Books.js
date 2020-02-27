@@ -20,9 +20,9 @@ export default class Books extends Component {
             author: "Nicole Forsgren",
             isbn: "978-1942788331"
             }
-        ]
-    };
-    }
+            ]
+        };
+        }
     render() {
         return (
             <div className="Books">
