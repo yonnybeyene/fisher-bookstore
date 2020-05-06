@@ -12,7 +12,7 @@ export default function Authors(props) {
     }, []);
 
         return (
-            <div className="Books">
+            <div className="Authors">
                 <div className="lander">
                     <AuthorDisplay authors={this.state.authors} />
                 </div>
